@@ -11,7 +11,7 @@ module GatewayAPI
   class User < UserApiBase
   end
 
-  class CourseResult < DataApiBase
+  class Course < DataApiBase
   end
 
   class SourceProvider < DataApiBase

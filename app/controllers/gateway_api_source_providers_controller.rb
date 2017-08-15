@@ -1,4 +1,4 @@
-class GatewayApiController < ApplicationController
+class GatewayApiSourceProvidersController < ApplicationController
   def show
     render json: GatewayAPI::SourceProvider.all
   end
